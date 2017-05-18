@@ -1,0 +1,78 @@
+
+
+/* Element Styling */
+
+body {
+	background-color: black;
+	font-family: "Orbitron", Arial, sans-serif;
+	font-size: 200%;
+	color: red;
+
+
+}
+
+.headline {
+	font-family: "Orbitron", Arial, sans-serif;
+	color:red;
+	font-size: 330%;
+	text-align: center;
+	font-weight:700;
+
+}
+
+.score{
+	font-family: "Orbitron", Arial, sans-serif;
+	font-size: 200%;
+	text-align:center;
+	display:block;
+	font-weight: 700;
+	height: 100px;
+	margin:auto;
+	color:red;
+	background:black;
+
+
+}
+
+.gemWrap{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.scoreWrap{
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: red ;
+	text-align: center;
+}
+
+.gemIcon{
+	width:20%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: red ;
+	margin: 10px 0px;
+
+}
+
+.dashLabel{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 125%;
+	text-decoration: underline;
+
+
+}
+
+
+/* ID Styling */
+
+
+#instructions {
+	margin-top: 20px;
+	font-family: Arial, sans-serif;
+	text-align:center;
+	font-weight: 400;
+}

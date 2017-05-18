@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+	<title>Gem Collector</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body onload="randomizer()">
+
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<p class="headline">Gem Collector</p>
+			</div>
+		</div>
+    	<div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 gemWrap" >
+
+                <img src="assets/images/gem1.png" id="gem1Icon" class="gemIcon">
+                <img src="assets/images/gem2.png" id="gem2Icon" class="gemIcon">
+                <img src="assets/images/gem3.png" id="gem3Icon" class="gemIcon">
+                <img src="assets/images/gem4.png" id="gem4Icon" class="gemIcon">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3">
+                <p class="dashLabel">Target</p>
+                <p id="targetScoreBox" class="score">-</p>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-sm-3">
+                <p class="dashLabel">Score</p>
+                <p id="currentScoreBox" class="score">-</p>
+            </div>
+                            
+        </div>
+                
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3">
+                <p class="dashLabel">Wins</p>
+                <p id="winCounter" class="score">0</p>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-sm-3 cols-xs-5">
+                <p class="dashLabel">Losses</p>
+                <p id="lossCounter" class="score">0</p>
+            </div>
+                            
+        </div>
+
+		<div class="row">
+    		<div class="col-md-12">
+
+                    <p class="dashLabel">Instructions</p>
+
+                <div id="instructions">
+                    <p>Each gem has a hidden value that resets with each new game.</p>
+                    <p>Each game you get a new Target to try to match.</p>
+                    <p>Click the gems to add their mystery value to your Score.
+                    <p>If the Score goes over the Target , you lose!</p>
+                    <p>If the Score lands on the Target, you win!</p>
+
+                </div>
+
+            </div>
+
+        </div>	
+        </div>
+    </div>
+
+<script src="assets/javascript/game.js">
+</script>
+
+
+</body>
+</html>
+
+
+
+
